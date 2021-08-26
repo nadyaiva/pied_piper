@@ -8,6 +8,7 @@
 }
 .logo {
     float: left;
+    margin-top: 16px;
     
 }
 
@@ -15,19 +16,16 @@ nav {
     float: right;
 }
 
-.nav_container {
-    align-items: center;
-    padding-top: 22px;
-}
-
-header {
+.header_main {
     background-color: #007765;
     height: 84px;
+    position: fixed;
+    width: 100%;
 }
 
 nav ul {
     list-style: none; /*убираем маркеры списка*/
-    margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+    margin: 25px 0px 0px 0px;
     padding: 0; /*убираем левый отступ, равный 40px*/
   }
 
@@ -41,8 +39,7 @@ nav li {
 a { text-decoration: none; /*убираем подчеркивание текста ссылок*/
     display: block;
     color: white;
-    padding-left: 8px;
-    line-height: 45px;}
+    padding-left: 8px;}
 
 .first_banner {
     background-image: url(../img/image.png);
