@@ -60,7 +60,7 @@ text-align: center;
 color: #FFFFFF;
 }
 
-.problem_title{
+.main_title {
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -72,9 +72,10 @@ color: #FFFFFF;
 
 .problem_banner {
     background-color: #EEEEEE;
+
 }
 
-.problem_content {
+.content {
     padding-top: 48px;
     padding-bottom: 92px;
 }
@@ -90,4 +91,87 @@ color: #000000;
 
 .citate {
     font-weight: bold;
+}
+
+.hero {
+    background-image: url("../img/hero.png");
+    background-position: center center;
+    background-size: cover;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+
+.hero_message {
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .coin {
+      background-color: white;
+  }
+
+  .theteam {
+    background-color: #EEEEEE;
+  }
+
+  .ppc_logo {
+      float: left;
+      padding-right: 48px;
+  }
+
+  .summary_text {
+      font-family: Roboto;
+      font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+  }
+
+  .italic {
+      font-style: italic;
+  }
+
+  .card_img {
+    width: 350px;
+    height: 283px;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding-bottom: 55px;
+    margin: 0px;
+}
+
+  .cards_foto {
+    width: 168px;
+    height: 168px;
+  }
+
+figcaption {
+    display: block;
+}
+
+.figure {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.name_card {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #007765;
+    margin-bottom: 8px;
+
+}
+
+em {
+    font-style: italic;
 }
