@@ -1,0 +1,96 @@
+.main_container {
+  box-sizing: border-box;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+.logo {
+    float: left;
+    
+}
+
+nav {
+    float: right;
+}
+
+.nav_container {
+    align-items: center;
+    padding-top: 22px;
+}
+
+header {
+    background-color: #007765;
+    height: 84px;
+}
+
+nav ul {
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+    padding: 0; /*убираем левый отступ, равный 40px*/
+  }
+
+nav li {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+}
+
+a { text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    display: block;
+    color: white;
+    padding-left: 8px;
+    line-height: 45px;}
+
+.first_banner {
+    background-image: url(../img/image.png);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.banner_message {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 72px;
+line-height: 84px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.problem_title{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+}
+
+.problem_banner {
+    background-color: #EEEEEE;
+}
+
+.problem_content {
+    padding-top: 48px;
+    padding-bottom: 92px;
+}
+
+.problem_text {
+font-family: "Roboto", sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 37px;
+color: #000000;
+}
+
+.citate {
+    font-weight: bold;
+}
